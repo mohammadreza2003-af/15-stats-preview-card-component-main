@@ -9,10 +9,11 @@ body {
   /* font-family: "Lexend Deca", sans-serif; */
 }
 main {
-  display: grid;
   min-height: 100vh;
+  display: grid;
   place-items: center;
 }
+
 .grid {
   display: grid;
   color: #fff;
