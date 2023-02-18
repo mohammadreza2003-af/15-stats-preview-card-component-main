@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 body {
+}
+main {
   display: grid;
   min-height: 100vh;
   place-items: center;
@@ -12,5 +14,19 @@ body {
   display: grid;
 }
 .grid-2-c {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 540px);
+  grid-template-rows: 446px;
+}
+.box-1 {
+  padding: 64px;
+  border-radius: 12px 0 0 12px;
+}
+.box-2 {
+  border-radius: 0 12px 12px 0;
+  overflow: hidden;
+}
+.box {
+}
+.img {
+  width: 100%;
 }
