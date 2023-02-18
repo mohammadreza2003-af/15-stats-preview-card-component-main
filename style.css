@@ -8,3 +8,9 @@ body {
   min-height: 100vh;
   place-items: center;
 }
+.grid {
+  display: grid;
+}
+.grid-2-c {
+  grid-template-columns: repeat(2, 1fr);
+}
