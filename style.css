@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 body {
+  background-color: hsl(233, 47%, 7%);
   font-family: "Inter", sans-serif;
-  font-family: "Lexend Deca", sans-serif;
+  /* font-family: "Lexend Deca", sans-serif; */
 }
 main {
-  background-color: hsl(233, 47%, 7%);
   display: grid;
   min-height: 100vh;
   place-items: center;
@@ -42,7 +42,12 @@ main {
 .color-l {
   color: hsl(277, 64%, 61%);
 }
+h1 {
+  font-weight: 700;
+  font-size: 32px;
+}
 .dis-text {
+  font-weight: 400;
   color: hsla(0, 0%, 100%, 0.6);
 }
 .m-box {
@@ -56,6 +61,11 @@ main {
 }
 .m-d {
   color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 400;
+  font-size: 15px;
+}
+.m-h {
+  font-weight: 700;
 }
 
 .box {
