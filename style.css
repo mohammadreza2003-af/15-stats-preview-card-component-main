@@ -29,9 +29,19 @@ main {
 .box-2 {
   border-radius: 0 12px 12px 0;
   overflow: hidden;
+  background-image: linear-gradient(
+      to right,
+      hsla(277, 100%, 50%, 0.3),
+      hsla(277, 100%, 50%, 0.3)
+    ),
+    url(images/image-header-desktop.jpg);
 }
+
 .color-l {
   color: hsl(277, 64%, 61%);
+}
+.dis-text {
+  color: hsla(0, 0%, 100%, 0.6);
 }
 .m-box {
   margin-top: 64px;
@@ -42,10 +52,14 @@ main {
   display: flex;
   gap: 100px;
 }
+.m-d {
+  color: hsla(0, 0%, 100%, 0.6);
+}
 
 .box {
   background-color: hsl(244, 38%, 16%);
 }
 .img {
+  opacity: 0;
   width: 100%;
 }
