@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 body {
+  font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
 }
 main {
   background-color: hsl(233, 47%, 7%);
